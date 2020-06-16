@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
         accentColor: Colors.teal,
       ),
       debugShowCheckedModeBanner: false,
-      title: "App",
+      title: "Aplicativo de Agendamento de Consultas",
       home: TelaLogin(),
     );
   }

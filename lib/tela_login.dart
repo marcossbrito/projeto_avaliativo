@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:projeto_pratico_avaliativo_parte1/tela_principal.dart';
-import 'package:projeto_pratico_avaliativo_parte1/tela_sobre.dart';
 import 'campos_usuario_senha.dart';
 
 
@@ -92,7 +91,7 @@ exibirUsuarioDialog(BuildContext context) {
     return Scaffold(
 
       appBar: AppBar(
-        title: Text("APP"),
+        title: Text("Agenda de Consultas"),
         centerTitle: true,
         backgroundColor: Colors.teal,
         actions: <Widget>[
