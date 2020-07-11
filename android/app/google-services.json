@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "790885659081",
+    "firebase_url": "https://projeto-pratico-avaliativo.firebaseio.com",
+    "project_id": "projeto-pratico-avaliativo",
+    "storage_bucket": "projeto-pratico-avaliativo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790885659081:android:7bd28749e21f735e7c7818",
+        "android_client_info": {
+          "package_name": "com.example.projeto_pratico_avaliativo_parte1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790885659081-cas3int9fehastvjb6u35lg5nofltqqg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpmo0RV0fqyHcIT0KVw2J3BCbxDFKMB5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790885659081-cas3int9fehastvjb6u35lg5nofltqqg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

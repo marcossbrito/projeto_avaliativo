@@ -1,6 +1,10 @@
+import 'dart:async';
+
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:projeto_pratico_avaliativo_parte1/tela_principal.dart';
 import 'campos_usuario_senha.dart';
+import 'model/Usuario.dart';
 
 
 
@@ -19,6 +23,9 @@ class _TelaLoginState extends State<TelaLogin> {
   
 
 
+
+
+// botao entrar
   botaoEntrar(BuildContext context) {
   return Container(
     padding: const EdgeInsets.only(top: 20),
@@ -46,7 +53,7 @@ class _TelaLoginState extends State<TelaLogin> {
   );
 }
 
-
+// resetar usuario e senha
   void _reset() {
   setState(() {
     txtUsuario.text = "";
